@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "japanmusicdisk",
+    "name": "Japanese Music Disc",
+    "description": "Japanese Instrumental Music",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:japanese_music"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "mod_elements": [
+    {
+      "name": "Katana",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana"
+    },
+    {
+      "name": "CherryBlossomLeaves",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_blossom_leaves"
+    },
+    {
+      "name": "BlossomBiome",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blossom_biome"
+    },
+    {
+      "name": "JapaneseMusicDisc",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "japanese_music_disc"
+    },
+    {
+      "name": "SamuraiArmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samurai_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Samurai",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samurai"
+    },
+    {
+      "name": "JapaneseGate",
+      "type": "structure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "japanese_gate"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "japanese_music",
+      "files": [
+        "free_royalty_instrumental_japanese_music_no_copyright"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.japan.katana": "Katana",
+      "item.japan.samurai_armor_leggings": "Samurai Leggings",
+      "item.japan.samurai_armor_boots": "Samurai Boots",
+      "item.japan.samurai_armor_chestplate": "Samurai Chestplate",
+      "entity.japan.samurai": "Samurai",
+      "biome.japan.blossom_biome": "Blossom Biome",
+      "item.japan.samurai_spawn_egg": "Samurai Spawn Egg",
+      "block.japan.cherry_blossom_leaves": "Cherry Blossom Leaves",
+      "item.japan.japanese_music_disc": "Japanese Music Disc",
+      "item.japan.samurai_armor_helmet": "Samurai Helmet",
+      "item.japan.japanese_music_disc.desc": "Japanese Instrumental Music",
+      "subtitles.japanese_music": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "japan",
+    "modName": "Japan",
+    "version": "1.0.0",
+    "description": "Japan themed mod for a school project",
+    "author": "Lucas MacManus",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.japan",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

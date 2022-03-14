@@ -1,0 +1,11 @@
+{
+  "japanese_music": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "japan:free_royalty_instrumental_japanese_music_no_copyright",
+        "stream": true
+      }
+    ]
+  }
+}
