@@ -32,7 +32,7 @@ public class JapanModItems {
 	public static final Item SAMURAI_ARMOR_LEGGINGS = register(new SamuraiArmorItem.Leggings());
 	public static final Item SAMURAI_ARMOR_BOOTS = register(new SamuraiArmorItem.Boots());
 	public static final Item SAMURAI = register(
-			new SpawnEggItem(JapanModEntities.SAMURAI, -13496304, -14336, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+			new SpawnEggItem(JapanModEntities.SAMURAI, -15263977, -14336, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("samurai_spawn_egg"));
 
 	private static Item register(Item item) {

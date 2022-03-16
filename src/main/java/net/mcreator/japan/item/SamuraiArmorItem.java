@@ -67,7 +67,7 @@ public abstract class SamuraiArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "japan:textures/models/armor/samurai_armor__layer_1.png";
+			return "japan:textures/models/armor/samurai__layer_1.png";
 		}
 	}
 
@@ -79,7 +79,7 @@ public abstract class SamuraiArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "japan:textures/models/armor/samurai_armor__layer_1.png";
+			return "japan:textures/models/armor/samurai__layer_1.png";
 		}
 	}
 
@@ -91,7 +91,7 @@ public abstract class SamuraiArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "japan:textures/models/armor/samurai_armor__layer_2.png";
+			return "japan:textures/models/armor/samurai__layer_2.png";
 		}
 	}
 
@@ -103,7 +103,7 @@ public abstract class SamuraiArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "japan:textures/models/armor/samurai_armor__layer_1.png";
+			return "japan:textures/models/armor/samurai__layer_1.png";
 		}
 	}
 }

@@ -18,6 +18,6 @@ public class SamuraiRenderer extends HumanoidMobRenderer<SamuraiEntity, Humanoid
 
 	@Override
 	public ResourceLocation getTextureLocation(SamuraiEntity entity) {
-		return new ResourceLocation("japan:textures/samuraimodle.png");
+		return new ResourceLocation("japan:textures/samurai_layer_1.png");
 	}
 }
