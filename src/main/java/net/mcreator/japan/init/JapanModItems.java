@@ -9,7 +9,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -31,9 +30,6 @@ public class JapanModItems {
 	public static final Item SAMURAI_ARMOR_CHESTPLATE = register(new SamuraiArmorItem.Chestplate());
 	public static final Item SAMURAI_ARMOR_LEGGINGS = register(new SamuraiArmorItem.Leggings());
 	public static final Item SAMURAI_ARMOR_BOOTS = register(new SamuraiArmorItem.Boots());
-	public static final Item SAMURAI = register(
-			new SpawnEggItem(JapanModEntities.SAMURAI, -15263977, -14336, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("samurai_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
